@@ -1,0 +1,43 @@
+h1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: large;
+    font-weight: 500;
+    color: rgb(0, 0, 0);
+
+}
+
+
+footer{
+    background-color: aliceblue;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+header{
+    background-color: rgb(114, 162, 204);
+    font-family: Arial, Helvetica, sans-serif;
+    color:rgb(0, 0, 0)
+}
+
+body{
+    background-color: aliceblue;
+}
+
+
+/* folgende Style wirkt auf eine class namens flex-container 
+eine Class wird in der styles.css immer mit einem fürhenden Punkt dargestellt*/
+
+.flex-container {
+    display: flex;
+    flex-wrap: wrap ;
+    background-color: aliceblue;
+    
+}
+/* Der Folgende Style wirkt auf alle DIVs innerhalb eines flex-containers*/
+.flex-container > div {
+    background-color: #8aafe6;
+    width: 700px;
+    margin: 10px;
+    text-align: center;
+    line-height: 75px;
+    font-size: 30px;
+}
