@@ -22,7 +22,8 @@ app.get('/', (req, res) => {
 	// res ist die Antwort des Servers an den Browser.
 	// send() ist die Anweisung etwas an den Browser zu senden
 	// 'Hello ...' ist der Wert, der an die Anweisung send() übergeben wird
-	res.send('Hello remote world!\n');
+	//res.send('Hello remote world!\n');
+res.render('index.ejs',{});
 });
 
 
